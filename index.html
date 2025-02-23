@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TIMELESS</title>
     <style>
+        .gallery img {
+            width: 80%; /* Adjust this value to control size */
+            max-width: 600px; /* Ensures images are not too large */
+            height: auto;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
         
         body {
             background-color: #1a1a1a;
