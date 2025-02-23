@@ -9,20 +9,16 @@
         body {
             background-color: #1a1a1a;
             color: #e0d8c3;
-            font-family: "Garamond", serif;   
+            font-family: "Garamond", serif;
             text-align: center;
             margin: 0;
             padding: 20px;
-            border: 20px solid transparent;
-            border-image: url('https://i.imgur.com/yourcathedralborder.jpg') 30 round;
         }
         header {
-            background: url('header-background.jpg') no-repeat center;
-            background-size: cover;
             padding: 50px;
         }
         h1 {
-            font-size: 4em;
+            font-size: 3em;
             font-family: 'Great Vibes', cursive;
             text-shadow: 2px 2px 4px #000;
         }
@@ -43,39 +39,6 @@
             background-color: rgba(0, 0, 0, 0.6);
             border-radius: 10px;
         }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-            padding: 20px;
-        }
-        .gallery img {
-            width: 200px;
-            height: auto;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: transform 0.3s ease;
-        }
-        .gallery img:hover {
-            transform: scale(1.1);
-        }
-        .lightbox {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.8);
-            justify-content: center;
-            align-items: center;
-        }
-        .lightbox img {
-            max-width: 90%;
-            max-height: 90%;
-            border-radius: 10px;
-        }
     </style>
 </head>
 <body>
@@ -84,19 +47,17 @@
         <img src="https://i.imgur.com/H4VTFf6.jpg" alt="Featured Jewelry" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 10px; margin-top: 20px;">
         <nav>
             <a href="#gallery">Gallery</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
         </nav>
     </header>
     
-    <div class="container" id="about">
+    <div class="container">
         <h2>About Me</h2>
         <p>My name is <strong>Michael Brian Nowak</strong>. I am a <strong>second-generation jeweler</strong> from <strong>New York City</strong>, born in 1993. 
         Since childhood, I have been drawn to <strong>art, history, and craftsmanship</strong>. My inspiration comes from <strong>history, animation, nature, the city, music, and other artists</strong>. 
         In addition to my passion for jewelry, I am a <strong>musician, skateboarder, and fantasy enthusiast</strong>. My work reflects a deep appreciation for detail and storytelling, blending timeless techniques with modern design.</p>
     </div>
     
-    <div class="container" id="contact">
+    <div class="container">
         <h2>Contact</h2>
         <p>For inquiries, commissions, or collaborations, feel free to reach out:</p>
         <p>Email: <a href="mailto:nowakmichael1@icloud.com">nowakmichael1@icloud.com</a></p>
